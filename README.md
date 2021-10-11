@@ -14,3 +14,5 @@ The data set from SQL is organized as an array within VBA to reduce run-time and
   - PS (Part Shortage)
   - EX (Exception)
 - If the above arguments are not met then the order is listed as WIP and is able to ship.
+
+Orders will then be sorted into **"buckets"** based on order status, ESD, RSD, download date and time, and carrier cut-time. 
