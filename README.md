@@ -19,6 +19,7 @@ Orders will then be sorted into **"buckets"** based on order status, ESD, RSD, d
 
 ### Files Listed
 The files listed in this repository are as follows:
+- Example Data Folder - A small screen shot of the main pivot data and an example data set from the tool is stored here.
 - MAIN.bas - This is the main VBA module that is imported into the workbook, this module manipulates the data.
 - MAIN.sql - The SQL query that pulls that data form our WMS (warehouse managemnet system)
 - VERSION_CONTROLLER.bas - This module is what pulls in the MAIN.bas module. This helps with versionm controling the module after distrobution. 
