@@ -16,3 +16,9 @@ The data set from SQL is organized as an array within VBA to reduce run-time and
 - If the above arguments are not met then the order is listed as WIP and is able to ship.
 
 Orders will then be sorted into **"buckets"** based on order status, ESD, RSD, download date and time, and carrier cut-time. 
+
+### Files Listed
+The files listed in this repository are as follows:
+- MAIN.bas - This is the main VBA module that is imported into the workbook, this module manipulates the data.
+- MAIN.sql - The SQL query that pulls that data form our WMS (warehouse managemnet system)
+- VERSION_CONTROLLER.bas - This module is what pulls in the MAIN.bas module. This helps with versionm controling the module after distrobution. 
