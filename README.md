@@ -1,4 +1,4 @@
-# CEVA Logistics - BW3 ATS Tool
-
+# BW3 ATS Tool
 An Excel based tool written in VBA and SQL for CEVA Logistics' Dell campus. 
-This tool provides real time & organized visibilty to the operations team for orders excpected ship by the specified ship deadline. 
+### Description
+This tool provides a real time & organized data set of orders along with their attributes for CEVA to execute completion based on the expected ship day and carrier cut-time.
